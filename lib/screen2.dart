@@ -34,25 +34,19 @@ class SecondScreen extends StatelessWidget {
             if (state is PostLoadedState) {
               List<PostModel> postList = state.post;
               return ListView.builder(
-                  itemCount: postList.length,
-                  itemBuilder: (_, index) {
-                    return Card(
-                      child: Column(
-                        children: [
-                          Text(
-                            postList[index].title.toString(),
-                            style: const TextStyle(
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          Text(postList[index].body.toString()),
-                          const SizedBox(
-                            height: 1,
-                          ),
-                        ],
+                itemCount: postList.length,
+                itemBuilder: (_, index) {
+                  return ListTile(
+                    title: Text(
+                      postList[index].title.toString(),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
                       ),
-                    );
-                  });
+                    ),
+                    subtitle: Text(postList[index].body.toString()),
+                  );
+                },
+              );
             }
             if (state is PostErrorState) {
               return const Center(
