@@ -30,11 +30,11 @@ flutter test
 
 This will execute all the tests in the project.
 
-Use and install the apk from the repository
+Use and install the apk from the link
 
-```
-app-release.apk
-```
+
+[app-release.apk
+](https://drive.google.com/file/d/1U5en7adbldDhs5b6yUo5drpOM07_CRQ1/view?usp=sharing)
 
 ### Screenshots
 
