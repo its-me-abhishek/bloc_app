@@ -49,6 +49,7 @@ class HomePage extends StatelessWidget {
                         child: Card(
                           color: Theme.of(context).primaryColor,
                           child: Image.network(
+                            height: MediaQuery.of(context).size.height * 0.5,
                             imageList[index].url.toString(),
                           ),
                         ),
