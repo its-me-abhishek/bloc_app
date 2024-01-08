@@ -32,13 +32,11 @@ This will execute all the tests in the project.
 
 Use and install the apk from the link
 
-
-[app-release.apk
-](https://drive.google.com/file/d/1U5en7adbldDhs5b6yUo5drpOM07_CRQ1/view?usp=sharing)
+[Link](https://drive.google.com/file/d/13tiCYK80VCB9CErqM_XmOR8f6HfQI6ZB/view?usp=sharing)
 
 ### Screenshots
 
-<img src="screenshots/1.jpg" height="200">
-<img src="screenshots/2.jpg" height="200">
-<img src="screenshots/3.jpg" height="200">
-<img src="screenshots/4.jpg" height="200">
+<img src="screenshots/1.jpg" height="300">
+<img src="screenshots/2.jpg" height="300">
+<img src="screenshots/3.jpg" height="300">
+<img src="screenshots/4.jpg" height="300">
